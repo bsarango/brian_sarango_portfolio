@@ -1,4 +1,4 @@
-function BioContainer(){
+function About(){
 
     return(
     <div>
@@ -11,4 +11,4 @@ function BioContainer(){
     )
 }
 
-export default BioContainer
+export default About
