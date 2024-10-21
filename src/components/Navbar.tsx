@@ -2,9 +2,14 @@
 function Navbar(){
 
     return(
-        <div className='Navbar'>
-            This is the Navbar!
-        </div>
+        <nav id="desktop-nav">
+            <div className="logo">Brian Sarango</div>
+            <div>
+                <ul className="nav-links">
+                    
+                </ul>
+            </div>
+        </nav>
     )
 }
 
