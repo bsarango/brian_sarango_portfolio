@@ -1,9 +1,21 @@
+import {useEffect, useState} from 'react'
 
 function Navbar(){
 
-    return(
-        <>
-            <nav id="desktop-nav">
+    interface WindowSize{
+        width: number;
+        height: number;
+    }
+
+    useEffect(()=>{
+        window.addEventListener
+    })
+
+    const [windowSize, setWindowSize] = useState<WindowSize>({width:window.innerWidth, height:window.innerHeight})
+
+    if (true) {
+        return(
+        <nav id="desktop-nav">
                 <div className="logo">Brian Sarango</div>
                 <div>
                     <ul className="nav-links">
@@ -13,10 +25,16 @@ function Navbar(){
                     </ul>
                 </div>
             </nav>
+        )
+    } 
+    
+            
+    else{
+        return(
             <nav id="hamburger-nav">
                 <div className="logo">Brian Sarango</div>
                 <div className="hamburger-menu">
-                    <div className="hamburger-icon" onClick={togglemenu()}>
+                    <div className="hamburger-icon">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -28,8 +46,8 @@ function Navbar(){
                     </div>
                 </div>
             </nav>
-        </>
-    )
+        )
+    }
 }
 
 export default Navbar
