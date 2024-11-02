@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
+import ProjectsContainer from './components/ProjectsContainer';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <div>
         Brian Sarango Main Page
         <About/>
+        <ProjectsContainer/>
       </div>
     </>
   )
