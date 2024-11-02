@@ -8,6 +8,8 @@ function Navbar(){
         height: number;
     }
 
+    const [windowSize, setWindowSize] = useState<WindowSize>({width:window.innerWidth, height:window.innerHeight})
+
     useEffect(()=>{
         function handleResize(){
             setWindowSize({
@@ -20,8 +22,6 @@ function Navbar(){
 
         return ()=>window.removeEventListener('resize', handleResize);
     },[]);
-
-    const [windowSize, setWindowSize] = useState<WindowSize>({width:window.innerWidth, height:window.innerHeight})
 
     console.log(windowSize)
 
