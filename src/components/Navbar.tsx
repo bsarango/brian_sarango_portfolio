@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react'
+import '../mediaqueries.css'
 
 function Navbar(){
 
@@ -8,12 +9,23 @@ function Navbar(){
     }
 
     useEffect(()=>{
-        window.addEventListener
-    })
+        function handleResize(){
+            setWindowSize({
+                width: window.innerWidth,
+                height: window.innerHeight
+            });
+        }
+
+        window.addEventListener('resize',handleResize);
+
+        return ()=>window.removeEventListener('resize', handleResize);
+    },[]);
 
     const [windowSize, setWindowSize] = useState<WindowSize>({width:window.innerWidth, height:window.innerHeight})
 
-    if (true) {
+    console.log(windowSize)
+
+    if (windowSize.width < 1200) {
         return(
         <nav id="desktop-nav">
                 <div className="logo">Brian Sarango</div>
@@ -51,3 +63,5 @@ function Navbar(){
 }
 
 export default Navbar
+
+//Complete this component to adjust to hamburger menu
