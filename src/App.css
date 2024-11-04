@@ -80,6 +80,15 @@ section {
   min-height: fit-content;
 }
 
-.section-container, #profile {
+.section-container {
   display: flex;
+}
+
+/*Profile section*/
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
 }
