@@ -69,3 +69,17 @@ a:hover{
   width: 30px;
   cursor: pointer;
 }
+
+/*Sections*/
+
+section {
+  padding-top: 4vh;
+  height:96 vh;
+  margin:0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container, #profile {
+  display: flex;
+}
