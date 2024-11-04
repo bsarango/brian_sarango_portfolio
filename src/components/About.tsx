@@ -1,8 +1,7 @@
 function About(){
 
     return(
-    <div>
-        
+    <div className="about__text-container">
         <p className = "about-p">
             I'm a Software Engineer with FullStack development experience. <br></br>
             I previously have experience in the healthcare field working with a range of other professionals.<br></br>

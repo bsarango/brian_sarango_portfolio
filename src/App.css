@@ -133,6 +133,14 @@ section {
 
 /* About Section*/
 
+.about__text-container{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 500px;
+  margin: auto 0;
+}
+
 .about-p{
   text-align: center;
   font-size: 1 rem;
