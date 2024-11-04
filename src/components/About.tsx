@@ -3,7 +3,7 @@ function About(){
     return(
     <div>
         
-        <p>
+        <p className = "about-p">
             I'm a Software Engineer with FullStack development experience. <br></br>
             I previously have experience in the healthcare field working with a range of other professionals.<br></br>
             I'm experienced in created front ends with React and JavaScript and Backends with Flask with Python. 

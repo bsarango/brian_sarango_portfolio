@@ -129,3 +129,11 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
+
+
+/* About Section*/
+
+.about-p{
+  text-align: center;
+  font-size: 1 rem;
+}
