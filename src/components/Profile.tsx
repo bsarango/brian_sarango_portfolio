@@ -15,8 +15,8 @@ function Profile(){
                     </button> 
                 </div>
                 <div className="socials-container">
-                    <img src="" alt="My Linkedin Profile" className=""/>    {/* add onClick to change location to send to linkedin profile + add Linkedin icon pic */}
-                    <img src="" alt="My Github Profile" className=""/>    {/* add onClick to change location to send to github profile + add Github icon pic*/}
+                    <img src="" alt="My Linkedin Profile" className="icon"/>    {/* add onClick to change location to send to linkedin profile + add Linkedin icon pic */}
+                    <img src="" alt="My Github Profile" className="icon"/>    {/* add onClick to change location to send to github profile + add Github icon pic*/}
                 </div>
             </div>
         </section>

@@ -130,6 +130,12 @@ section {
   gap: 1rem;
 }
 
+/*Icons*/
+
+.icon{
+  cursor: pointer;
+  height: 2rem;
+}
 
 /* About Section*/
 
