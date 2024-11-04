@@ -10,7 +10,6 @@ function App() {
     <>
       <Navbar/>
       <div>
-        Brian Sarango Main Page
         <Profile/>
         <About/>
         <ProjectsContainer/>
