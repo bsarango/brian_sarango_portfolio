@@ -6,12 +6,12 @@ function Profile(){
             </div>
             <div className="section__text">
                 <p className="section__text__p1">Hello, I'm</p>
-                <h1 className="title">Brian Sarago</h1>
+                <h1 className="title">Brian Sarango</h1>
                 <p className="section__text__p2">Software Engineer</p>
                 <div className="btn-container">
                     <button className="btn btn-color-2">Download Resume</button> {/*add onClick to button to download resume */}
                     <button className="btn btn-color-1">    {/*add onClick for button to move to Contact section*/}
-                        Download Resume
+                        Contact Info
                     </button> 
                 </div>
                 <div className="socials-container">
