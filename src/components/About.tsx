@@ -8,6 +8,25 @@ function About(){
             <h1 className="title">
                 About me
             </h1>
+            <div className="section-container">
+                <div className="section__pic_container">
+                    <img src="" alt="Profile Picture" className="about-pic"/>
+                </div>
+                <div className="about-details-containers">
+                    <div className="about-containers">
+                        <div className="details-container">
+                            <img src="" alt="Experience icon" className="icon"/>
+                            <h3>Experience</h3>
+                            <p>Frontent Developer <br>Backend Developer</br></p>
+                        </div>
+                        <div className="details-container">
+                            <img src="" alt="Education icon" className="icon"/>
+                            <h3>Education</h3>
+                            <p>BA Biological Science <br>Flatiron School SE Bootcamp</br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     // <div className="about__text-container">
     //     <p className = "about-p">
