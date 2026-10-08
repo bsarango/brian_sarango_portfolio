@@ -36,6 +36,7 @@ function About(){
                     </div>
                 </div>
             </div>
+            <img src="" alt="Arrow icon" className="icon arrow"/>
         </section>
     // <div className="about__text-container">
     //     <p className = "about-p">
