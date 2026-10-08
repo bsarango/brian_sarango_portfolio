@@ -17,13 +17,22 @@ function About(){
                         <div className="details-container">
                             <img src="" alt="Experience icon" className="icon"/>
                             <h3>Experience</h3>
-                            <p>Frontent Developer <br>Backend Developer</br></p>
+                            <p>Frontent Developer <br></br> Backend Developer</p>
                         </div>
                         <div className="details-container">
                             <img src="" alt="Education icon" className="icon"/>
                             <h3>Education</h3>
-                            <p>BA Biological Science <br>Flatiron School SE Bootcamp</br></p>
+                            <p>BA Biological Sciencs <br></br>Flatiron School SE Bootcamp</p>
                         </div>
+                    </div>
+                    <div className="text-container">
+                        <p>
+                            I'm a Software Engineer with experience building Full Stack Applications. 
+                            I have experience working with JS, ReactJS and Vite, Python, Java, Flask, HTML, CSS, SQLite, and SQL Aclhemy. 
+                            I focus on building healthcare - tech based apps that focus on effective data querying, authentication and validation, and being user friendly.
+                            Additionally, I have a background in healthcare and education where I've gained and honed skills in customer service, educating and training, team building, teamwork, and leadership. 
+                            When not coding or working, I'm heavily involved in my local church, learning, playing, and directing music, cooking, excercising, and spending time with my feline pets. 
+                        </p>
                     </div>
                 </div>
             </div>
