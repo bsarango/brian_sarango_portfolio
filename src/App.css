@@ -184,6 +184,34 @@ section {
 
 /* About Section*/
 
+#about{
+  position: relative;
+}
+
+.about-conatiners{
+  gap: 2 rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-containers{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-conatiners, .about-details-containers {
+  display: flex;
+}
+
+.about-pic{
+  border-radius: 2rem;
+}
+
+.arrow{
+  position: absolute;
+  right: -5 rem;
+}
+
 .about__text-container{
   display: flex;
   justify-content: center;
