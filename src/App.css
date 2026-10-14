@@ -223,6 +223,11 @@ section {
   text-align: center;
 }
 
+.section-container{
+  gap: 4rem;
+  height: 80%;
+}
+
 .about__text-container{
   display: flex;
   justify-content: center;
