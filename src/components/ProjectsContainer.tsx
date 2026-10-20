@@ -10,7 +10,11 @@ function ProjectsContainer(){
                         <img src="" alt="Project 1" className="project-img"/>
                     </div>
                     <h2 className="experience-sub-title project-title">Project One</h2>
-                    <div className="btn-container"></div>
+                    <div className="btn-container">
+                        <button className="btn btn-color-2 project-btn">
+                            Github
+                        </button>
+                    </div>
                 </div>
             </div>
             <ul>
