@@ -1,13 +1,13 @@
 
 function ProjectsContainer(){
     return(
-        <div>
-            My Projects
+        <section id = "projects">
+            <p className="section__text__p1">Browse My Recent</p>
             <ul>
                 <li><a />One Medical Central</li>
                 <li><a /></li>
             </ul>
-        </div>
+        </section>
     )
 };
 
