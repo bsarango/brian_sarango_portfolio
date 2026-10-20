@@ -34,7 +34,7 @@ function ProjectsContainer(){
                     </div>
                 </div>
             </div>
-            <img src="" alt="Arrow icon" className="icon arrow"/>
+            <img src="" alt="Arrow icon" className="icon arrow" onClick={()=>{}}/>
         </section>
     )
 };
