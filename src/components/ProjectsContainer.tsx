@@ -6,7 +6,9 @@ function ProjectsContainer(){
             <h1 className="title">Projects</h1>
             <div className="experience-details-container">
                 <div className="details-container color-container">
-                    <div className="article-container"></div>
+                    <div className="article-container">
+                        <img src="" alt="Project 1" className="project-img"/>
+                    </div>
                 </div>
             </div>
             <ul>
