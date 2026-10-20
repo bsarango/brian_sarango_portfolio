@@ -34,6 +34,7 @@ function ProjectsContainer(){
                     </div>
                 </div>
             </div>
+            <img src="" alt="Arrow icon" className="icon arrow"/>
         </section>
     )
 };
