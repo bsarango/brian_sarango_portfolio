@@ -17,10 +17,6 @@ function ProjectsContainer(){
                     </div>
                 </div>
             </div>
-            <ul>
-                <li><a />One Medical Central</li>
-                <li><a /></li>
-            </ul>
         </section>
     )
 };
