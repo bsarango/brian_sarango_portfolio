@@ -14,6 +14,9 @@ function ProjectsContainer(){
                         <button className="btn btn-color-2 project-btn" onClick={()=>{window.location.href = "https://github.com/bsarango/my-medical-system"}}>
                             Github
                         </button>
+                        <button className="btn btn-color-2 project-btn" onClick={()=>{window.location.href = "https://youtu.be/xt4MfsCPTBA"}}>
+                            Live Demo
+                        </button>
                     </div>
                 </div>
             </div>
