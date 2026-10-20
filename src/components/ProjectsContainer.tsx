@@ -9,6 +9,8 @@ function ProjectsContainer(){
                     <div className="article-container">
                         <img src="" alt="Project 1" className="project-img"/>
                     </div>
+                    <h2 className="experience-sub-title project-title">Project One</h2>
+                    <div className="btn-container"></div>
                 </div>
             </div>
             <ul>
