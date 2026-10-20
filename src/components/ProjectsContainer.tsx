@@ -11,7 +11,7 @@ function ProjectsContainer(){
                     </div>
                     <h2 className="experience-sub-title project-title">Project One</h2>
                     <div className="btn-container">
-                        <button className="btn btn-color-2 project-btn" onClick={()=>{window.location.href = "https://github.com/bsarango"}}>
+                        <button className="btn btn-color-2 project-btn" onClick={()=>{window.location.href = "https://github.com/bsarango/my-medical-system"}}>
                             Github
                         </button>
                     </div>
