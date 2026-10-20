@@ -25,10 +25,10 @@ function ProjectsContainer(){
                     </div>
                     <h2 className="experience-sub-title project-title">Project Two</h2>
                     <div className="btn-container">
-                        <button className="btn btn-color-2 project-btn" onClick={()=>{window.location.href = "https://github.com/bsarango/my-medical-system"}}>
+                        <button className="btn btn-color-2 project-btn" onClick={()=>{window.location.href = "https://github.com/bsarango/mama-medical-appointment-maker"}}>
                             Github
                         </button>
-                        <button className="btn btn-color-2 project-btn" onClick={()=>{window.location.href = "https://youtu.be/xt4MfsCPTBA"}}>
+                        <button className="btn btn-color-2 project-btn" onClick={()=>{window.location.href = "https://youtu.be/btNkyA6QKt8"}}>
                             Live Demo
                         </button>
                     </div>
