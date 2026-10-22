@@ -5,7 +5,7 @@ function ContactContainer(){
             <h1 className="title">Contact Me</h1>
             <div className="contact-info-upper-container">
                 <div className="contact-info-container">
-                    
+                    <img src="" alt="Email icon" className="icon contact-icon"/>
                 </div>
             </div>
         </section>
