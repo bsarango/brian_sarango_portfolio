@@ -6,6 +6,7 @@ function ContactContainer(){
             <div className="contact-info-upper-container">
                 <div className="contact-info-container">
                     <img src="" alt="Email icon" className="icon contact-icon"/>
+                    <p><a href="mailto:brian@pypes.dev">brian@pypes.dev</a></p>
                 </div>
             </div>
         </section>
