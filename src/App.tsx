@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Profile from './components/Profile';
 import ProjectsContainer from './components/ProjectsContainer';
+import ContactContainer from './components/ContactContainer';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Profile/>
         <About/>
         <ProjectsContainer/>
+        <ContactContainer/>
       </div>
     </>
   )
