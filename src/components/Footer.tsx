@@ -10,7 +10,7 @@ function Footer(){
                     </ul>
                 </div>
             </nav>
-            <p>Copyright &#169;</p>
+            <p>Copyright &#169; 2026 Brian Sarango. All Rights Reserved</p>
         </>
     )
 };
