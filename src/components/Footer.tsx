@@ -10,6 +10,7 @@ function Footer(){
                     </ul>
                 </div>
             </nav>
+            <p>Copyright &#169;</p>
         </>
     )
 };
