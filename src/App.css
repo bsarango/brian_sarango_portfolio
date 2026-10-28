@@ -315,3 +315,7 @@ footer{
   height:25vh;
   margin: 0 1rem;
 }
+
+footer p{
+  text-align: center;
+}
