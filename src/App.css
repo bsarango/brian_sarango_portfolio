@@ -308,3 +308,10 @@ section {
 .contact-icon{
   cursor: default;
 }
+
+/* Footer SECTION*/
+
+footer{
+  height:25vh;
+  margin: 0 1rem;
+}

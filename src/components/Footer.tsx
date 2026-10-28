@@ -1,6 +1,6 @@
 function Footer(){
     return(
-        <>
+        <footer>
             <nav>
                 <div className="nav-links-container">
                     <ul className="nav-links">
@@ -11,7 +11,7 @@ function Footer(){
                 </div>
             </nav>
             <p>Copyright &#169; 2026 Brian Sarango. All Rights Reserved</p>
-        </>
+        </footer>
     )
 };
 
