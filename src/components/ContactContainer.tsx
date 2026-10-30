@@ -10,7 +10,7 @@ function ContactContainer(){
                 </div>
                 <div className="contact-info-container">
                     <img src="" alt="LinkedIn icon" className="icon contact-icon"/>
-                    <p><a href="www.linkedin.com/in/brian-sarango">LinkedIn</a></p> {/* Use Link library to make link work */}
+                    <p><a href="http://linkedin.com/in/brian-sarango">LinkedIn</a></p> {/* Use Link library to make link work */}
                 </div>
             </div>
         </section>
