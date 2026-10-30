@@ -1,3 +1,4 @@
+import arrow_icon from '../assets/arrow.png'
 
 function ProjectsContainer(){
     return(
@@ -36,7 +37,7 @@ function ProjectsContainer(){
                     </div>
                 </div>
             </div>
-            <img src="" alt="Arrow icon" className="icon arrow" onClick={()=>{}}/>
+            <img src={arrow_icon} alt="Arrow icon" className="icon arrow" onClick={()=>{}}/>
         </section>
     )
 };
