@@ -26,7 +26,7 @@ function Navbar(){
     console.log(windowSize)
 
     function toggleMenu(){
-        
+
     }
 
 
@@ -57,9 +57,9 @@ function Navbar(){
                         <span></span>
                     </div>
                     <div className="menu-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about" onClick={toggleMenu}>About</a></li>
+                        <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+                        <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
                     </div>
                 </div>
             </nav>
