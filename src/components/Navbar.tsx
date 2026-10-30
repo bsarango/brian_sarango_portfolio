@@ -25,6 +25,11 @@ function Navbar(){
 
     console.log(windowSize)
 
+    function toggleMenu(){
+        
+    }
+
+
     if (windowSize.width < 1200) {
         return(
         <nav id="desktop-nav">
@@ -46,7 +51,7 @@ function Navbar(){
             <nav id="hamburger-nav">
                 <div className="logo">Brian Sarango</div>
                 <div className="hamburger-menu">
-                    <div className="hamburger-icon">
+                    <div className="hamburger-icon" onClick={toggleMenu}>
                         <span></span>
                         <span></span>
                         <span></span>
