@@ -1,5 +1,6 @@
 import linkedin_icon from '../assets/linkedin.png';
 import github_icon from '../assets/github.png';
+import resume from '../assets/Brian Sarango — Resume.pdf'
 
 function Profile(){
     return(
@@ -12,7 +13,7 @@ function Profile(){
                 <h1 className="title">Brian Sarango</h1>
                 <p className="section__text__p2">Software Engineer</p>
                 <div className="btn-container">
-                    <button className="btn btn-color-2">Download Resume</button> {/*add onClick to button to download resume */}
+                    <button className="btn btn-color-2" onClick={()=>window.open(resume)}>Download Resume</button> {/*add onClick to button to download resume */}
                     <button className="btn btn-color-1">    {/*add onClick for button to move to Contact section*/}
                         Contact Info
                     </button> 
