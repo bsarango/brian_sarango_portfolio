@@ -52,16 +52,16 @@ a:hover{
 
 /* Hambuger Menu*/
 
-#hambuger-nav{
+#hamburger-nav{
   display: none;
 }
 
-.hambuger-menu{
+.hamburger-menu{
   position: relative;
   display: inline-block;
 }
 
-.hambuger-icon{
+.hamburger-icon{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
