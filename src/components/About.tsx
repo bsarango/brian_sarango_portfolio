@@ -1,3 +1,6 @@
+import education_icon from '../assets/education.png'
+import experience_icon from '../assets/experience.png'
+
 function About(){
 
     return(
@@ -15,12 +18,12 @@ function About(){
                 <div className="about-details-containers">
                     <div className="about-containers">
                         <div className="details-container">
-                            <img src="" alt="Experience icon" className="icon"/>
+                            <img src={experience_icon} alt="Experience icon" className="icon"/>
                             <h3>Experience</h3>
                             <p>Frontent Developer <br></br> Backend Developer</p>
                         </div>
                         <div className="details-container">
-                            <img src="" alt="Education icon" className="icon"/>
+                            <img src={education_icon} alt="Education icon" className="icon"/>
                             <h3>Education</h3>
                             <p>BA Biological Sciencs <br></br>Flatiron School SE Bootcamp</p>
                         </div>
