@@ -19,8 +19,12 @@ function Profile(){
                     </button> 
                 </div>
                 <div className="socials-container">
-                    <img src={linkedin_icon} alt="My Linkedin Profile" className="icon"/>    {/* add onClick to change location to send to linkedin profile + add Linkedin icon pic */}
-                    <img src={github_icon} alt="My Github Profile" className="icon"/>    {/* add onClick to change location to send to github profile + add Github icon pic*/}
+                    <a href="http://linkedin.com/in/brian-sarango">
+                        <img src={linkedin_icon} alt="My Linkedin Profile" className="icon"/>
+                    </a>
+                    <a href='https://github.com/bsarango'>
+                        <img src={github_icon} alt="My Github Profile" className="icon"/> 
+                    </a>   
                 </div>
             </div>
         </section>
