@@ -1,3 +1,6 @@
+import linkedin_icon from '../assets/linkedin.png';
+import github_icon from '../assets/github.png';
+
 function Profile(){
     return(
         <section>
@@ -15,8 +18,8 @@ function Profile(){
                     </button> 
                 </div>
                 <div className="socials-container">
-                    <img src="" alt="My Linkedin Profile" className="icon"/>    {/* add onClick to change location to send to linkedin profile + add Linkedin icon pic */}
-                    <img src="" alt="My Github Profile" className="icon"/>    {/* add onClick to change location to send to github profile + add Github icon pic*/}
+                    <img src={linkedin_icon} alt="My Linkedin Profile" className="icon"/>    {/* add onClick to change location to send to linkedin profile + add Linkedin icon pic */}
+                    <img src={github_icon} alt="My Github Profile" className="icon"/>    {/* add onClick to change location to send to github profile + add Github icon pic*/}
                 </div>
             </div>
         </section>
