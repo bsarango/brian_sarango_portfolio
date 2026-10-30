@@ -30,7 +30,7 @@ function Navbar(){
     }
 
 
-    if (windowSize.width < 1200) {
+    if (windowSize.width > 1200) {
         return(
         <nav id="desktop-nav">
                 <div className="logo">Brian Sarango</div>
