@@ -40,7 +40,9 @@ function About(){
                     </div>
                 </div>
             </div>
-            <img src={arrow_icon} alt="Arrow icon" className="icon arrow"/>
+            <a href='#projects'>
+                <img src={arrow_icon} alt="Arrow icon" className="icon arrow"/>
+            </a>
         </section>
     )
 }
