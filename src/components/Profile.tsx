@@ -13,10 +13,12 @@ function Profile(){
                 <h1 className="title">Brian Sarango</h1>
                 <p className="section__text__p2">Software Engineer</p>
                 <div className="btn-container">
-                    <button className="btn btn-color-2" onClick={()=>window.open(resume)}>Download Resume</button> {/*add onClick to button to download resume */}
-                    <button className="btn btn-color-1">    {/*add onClick for button to move to Contact section*/}
-                        Contact Info
-                    </button> 
+                    <button className="btn btn-color-2" onClick={()=>window.open(resume)}>Download Resume</button>    
+                    <a>
+                        <button className="btn btn-color-1">
+                            Contact Info
+                        </button> 
+                    </a>
                 </div>
                 <div className="socials-container">
                     <a href="http://linkedin.com/in/brian-sarango">
