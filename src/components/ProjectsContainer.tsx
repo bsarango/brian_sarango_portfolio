@@ -37,7 +37,9 @@ function ProjectsContainer(){
                     </div>
                 </div>
             </div>
-            <img src={arrow_icon} alt="Arrow icon" className="icon arrow" onClick={()=>{}}/>
+            <a href='#contact'>
+                <img src={arrow_icon} alt="Arrow icon" className="icon arrow" onClick={()=>{}}/>
+            </a>
         </section>
     )
 };
