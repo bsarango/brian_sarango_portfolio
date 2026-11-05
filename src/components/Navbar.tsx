@@ -55,7 +55,7 @@ function Navbar(){
             <nav id="hamburger-nav">
                 <div className="logo">Brian Sarango</div>
                 <div className="hamburger-menu">
-                    <div className="hamburger-icon" onClick={toggleMenu}>
+                    <div className={`hamburger-icon ${isOpen?`open`:``}`} onClick={toggleMenu}>
                         <span></span>
                         <span></span>
                         <span></span>
