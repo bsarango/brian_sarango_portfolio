@@ -14,7 +14,7 @@ function Profile(){
                 <p className="section__text__p2">Software Engineer</p>
                 <div className="btn-container">
                     <button className="btn btn-color-2" onClick={()=>window.open(resume)}>Download Resume</button>    
-                    <a>
+                    <a href="#contact">
                         <button className="btn btn-color-1">
                             Contact Info
                         </button> 
