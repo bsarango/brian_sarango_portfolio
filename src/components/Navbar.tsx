@@ -60,7 +60,7 @@ function Navbar(){
                         <span></span>
                         <span></span>
                     </div>
-                    <div className="menu-links">
+                    <div className={`menu-links ${isOpen? `open` : ``}}`}>
                         <li><a href="#about" onClick={toggleMenu}>About</a></li>
                         <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
                         <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
