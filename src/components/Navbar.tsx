@@ -23,7 +23,7 @@ function Navbar(){
         return ()=>window.removeEventListener('resize', handleResize);
     },[]);
 
-    console.log(windowSize)
+    const [isOpen, setIsOpen] = useState(false)
 
     function toggleMenu(){
         const menu = document.querySelector("menu-links")
