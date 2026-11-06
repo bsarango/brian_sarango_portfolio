@@ -1,4 +1,6 @@
 import arrow_icon from '../assets/arrow.png'
+import project_one_pic from '../assets/one_medical_pic.png'
+import project_two_pic from '../assets/mama_medical_pic.png'
 
 function ProjectsContainer(){
     return(
@@ -9,7 +11,7 @@ function ProjectsContainer(){
                 <div className="about-containers">
                     <div className="details-container color-container">
                         <div className="article-container">
-                            <img src="" alt="Project 1" className="project-img"/>
+                            <img src={project_one_pic} alt="Project 1" className="project-img"/>
                         </div>
                         <h2 className="experience-sub-title project-title">Project One</h2>
                         <div className="btn-container">
@@ -23,7 +25,7 @@ function ProjectsContainer(){
                     </div>
                     <div className="details-container color-container">
                         <div className="article-container">
-                            <img src="" alt="Project 2" className="project-img"/>
+                            <img src={project_two_pic} alt="Project 2" className="project-img"/>
                         </div>
                         <h2 className="experience-sub-title project-title">Project Two</h2>
                         <div className="btn-container">
