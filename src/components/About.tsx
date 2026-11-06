@@ -1,6 +1,7 @@
 import education_icon from '../assets/education.png'
 import experience_icon from '../assets/experience.png'
 import arrow_icon from '../assets/arrow.png'
+import section_pic from '../assets/section_pic.png'
 
 function About(){
 
@@ -14,7 +15,7 @@ function About(){
             </h1>
             <div className="section-container">
                 <div className="section__pic_container">
-                    <img src="" alt="Profile Picture" className="about-pic"/>
+                    <img src={section_pic} alt="Profile Picture" className="about-pic"/>
                 </div>
                 <div className="about-details-containers">
                     <div className="about-containers">
