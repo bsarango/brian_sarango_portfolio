@@ -1,12 +1,13 @@
 import linkedin_icon from '../assets/linkedin.png';
 import github_icon from '../assets/github.png';
 import resume from '../assets/Brian Sarango — Resume.pdf'
+import profile_pic from '../assets/profile_pic.png'
 
 function Profile(){
     return(
         <section>
             <div className="section__pic-container">
-                <img src="" alt="Brian Sarango"/>
+                <img src={profile_pic} alt="Brian Sarango"/>
             </div>
             <div className="section__text">
                 <p className="section__text__p1">Hello, I'm</p>
