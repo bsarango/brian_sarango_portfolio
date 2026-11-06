@@ -5,7 +5,7 @@ import profile_pic from '../assets/profile_pic.png'
 
 function Profile(){
     return(
-        <section>
+        <section id = "profile">
             <div className="section__pic-container">
                 <img src={profile_pic} alt="Brian Sarango"/>
             </div>
