@@ -154,7 +154,7 @@ section {
 }
 
 .section__pic-container{
-  display:flex;
+  display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
@@ -265,6 +265,7 @@ section {
 
 .about-pic{
   border-radius: 2rem;
+  height: 400px;
 }
 
 .arrow{

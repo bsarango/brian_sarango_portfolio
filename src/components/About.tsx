@@ -14,7 +14,7 @@ function About(){
                 About me
             </h1>
             <div className="section-container">
-                <div className="section__pic_container">
+                <div className="section_pic_container">
                     <img src={section_pic} alt="Profile Picture" className="about-pic"/>
                 </div>
                 <div className="about-details-containers">
